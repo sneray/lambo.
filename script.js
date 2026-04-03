@@ -7,11 +7,11 @@ let clickCount = 0;  // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-    "还不快滚出去", 
-    "椰子不够打了", 
-    "你还我迪迪 ", 
-    "下地狱吧", 
-    "弄4你"
+    "对不几，你是不是还在生气", 
+    "已经深刻认识到错误", 
+    "小呈小呈西翻泥🥰", 
+    "窝想泥，想和你讲话", 
+    "真的不要和好吗🥺"
 ];
 
 // No 按钮点击事件
@@ -49,7 +49,7 @@ noButton.addEventListener("click", function() {
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">电锯恶魔成功消灭毛攀👍</h1>
+            <h1 class="yes-text">谢谢，我们和好以后是两头二臂</h1>
             <img src="images/end.png" alt="拥抱" class="yes-image">
         </div>
     `;
